@@ -185,10 +185,4 @@ func calculateRoute(stops : [AGSStop], completion: ((_ result : AGSRouteResult?,
     
 }
 
-//func minutesToDestination(location: AGSLocation, routeResult: AGSRouteResult) -> Double {
-//    let rt = AGSRouteTracker()
-//    var result = rt.setRouteResult(routeResult, routeIndex: 0, directionUnitSystem: .imperial)
-//    result = rt.trackLocation(location)
-//    return result.minutesToDestination
-//}
 
