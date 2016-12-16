@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="MapViewController" id="BYZ-38-t0r" customClass="MapViewController" customModule="Drift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="88D-SV-ynx">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="l50-YQ-BbE">
+                                <frame key="frameInset" minX="50.00%" minY="50.00%" width="161" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Map"/>
+                                    <segment title="Directions"/>
+                                </segments>
+                                <connections>
+                                    <action selector="indexChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="CF3-O4-OpJ"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0y-YK-Mf4">
+                                <connections>
+                                    <action selector="driftButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Xv-q4-fpG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="88D-SV-ynx" secondAttribute="bottom" id="8IH-h7-6XJ"/>
+                            <constraint firstItem="88D-SV-ynx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="J0c-fG-qXK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="h0y-YK-Mf4" secondAttribute="bottom" constant="24" id="N0E-5R-qxo"/>
+                            <constraint firstItem="h0y-YK-Mf4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="bwj-bL-CnM"/>
+                            <constraint firstAttribute="trailing" secondItem="88D-SV-ynx" secondAttribute="trailing" id="cAC-jO-20F"/>
+                            <constraint firstItem="88D-SV-ynx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="idm-Y4-whC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="kbl-Y0-6ii"/>
+                    <connections>
+                        <outlet property="driftButton" destination="h0y-YK-Mf4" id="Nvs-ra-ne2"/>
+                        <outlet property="subView" destination="88D-SV-ynx" id="Nvs-ra-nd9"/>
+                        <outlet property="viewSwitcher" destination="l50-YQ-BbE" id="Nvs-ra-nf6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="852" y="184.85757121439281"/>
+        </scene>
+    </scenes>
+</document>

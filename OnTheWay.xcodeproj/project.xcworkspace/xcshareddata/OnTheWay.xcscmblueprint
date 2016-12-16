@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AC87120F371DFD404C64ECEA656DDD1571B6BA66",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A1A3075435AEBF093C83870F0E68744EA4B1D77B" : 9223372036854775807,
+    "AC87120F371DFD404C64ECEA656DDD1571B6BA66" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "47E8B384-2AB1-431F-8382-6B76AFA14AC7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A1A3075435AEBF093C83870F0E68744EA4B1D77B" : "",
+    "AC87120F371DFD404C64ECEA656DDD1571B6BA66" : "OnTheWay\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OnTheWay",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OnTheWay.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "devtopia.esri.com:mich5148\/Demos.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A1A3075435AEBF093C83870F0E68744EA4B1D77B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/devtopia.esri.com\/ryan3374\/on-the-way",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AC87120F371DFD404C64ECEA656DDD1571B6BA66"
+    }
+  ]
+}
